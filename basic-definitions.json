@@ -1,0 +1,6 @@
+{
+  "encryption_technique": {
+    "name": "Envelope Encryption",
+    "definition": "Envelope encryption is a method of encrypting data by using a data encryption key (DEK) to encrypt the data and then encrypting the DEK with a key encryption key (KEK). This approach allows for secure key management and efficient encryption, enabling the separation of key management duties and secure sharing of encrypted data."
+  }
+}
