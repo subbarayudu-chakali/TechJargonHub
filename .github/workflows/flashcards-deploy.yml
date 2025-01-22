@@ -6,8 +6,12 @@ on:
       - master
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: flashcards
 
     steps:
       - name: Checkout code
@@ -23,7 +27,6 @@ jobs:
 
       - name: Build the project
         run: npm run build
-        working-directory: flashcards
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
