@@ -23,6 +23,7 @@ jobs:
 
       - name: Build the project
         run: npm run build
+        working-directory: ./flashcards
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
