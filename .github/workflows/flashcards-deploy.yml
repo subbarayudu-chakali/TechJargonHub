@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: flashcards
+        working-directory: flashcards-ui
 
     steps:
       - name: Checkout code
